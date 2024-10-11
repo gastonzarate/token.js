@@ -11,6 +11,8 @@ export const TableDisplayNames = {
 export const models = {
   openai: {
     models: [
+      'o1-preview',
+      'o1-mini',
       'gpt-4o',
       'gpt-4o-mini',
       'gpt-4o-2024-05-13',
@@ -37,6 +39,8 @@ export const models = {
     ] as const,
     supportsCompletion: true,
     supportsStreaming: [
+      'o1-preview',
+      'o1-mini',
       'gpt-4o',
       'gpt-4o-mini',
       'gpt-4o-2024-05-13',
@@ -205,6 +209,7 @@ export const models = {
       'amazon.titan-text-lite-v1',
       'amazon.titan-text-express-v1',
       'anthropic.claude-3-opus-20240229-v1:0',
+      'anthropic.claude-3-5-sonnet-20240620-v1:0',
       'anthropic.claude-3-sonnet-20240229-v1:0',
       'anthropic.claude-3-haiku-20240307-v1:0',
       'anthropic.claude-v2:1',
@@ -214,6 +219,8 @@ export const models = {
       'cohere.command-r-v1:0',
       'cohere.command-text-v14',
       'cohere.command-light-text-v14',
+      'meta.llama3-2-11b-instruct-v1:0',
+      'meta.llama3-2-90b-instruct-v1:0',
       'meta.llama3-8b-instruct-v1:0',
       'meta.llama3-70b-instruct-v1:0',
       'meta.llama2-13b-chat-v1',
@@ -227,6 +234,7 @@ export const models = {
       'amazon.titan-text-lite-v1',
       'amazon.titan-text-express-v1',
       'anthropic.claude-3-opus-20240229-v1:0',
+      'anthropic.claude-3-5-sonnet-20240620-v1:0',
       'anthropic.claude-3-sonnet-20240229-v1:0',
       'anthropic.claude-3-haiku-20240307-v1:0',
       'anthropic.claude-v2:1',
@@ -236,6 +244,8 @@ export const models = {
       'cohere.command-r-v1:0',
       'cohere.command-text-v14',
       'cohere.command-light-text-v14',
+      'meta.llama3-2-11b-instruct-v1:0',
+      'meta.llama3-2-90b-instruct-v1:0',
       'meta.llama3-8b-instruct-v1:0',
       'meta.llama3-70b-instruct-v1:0',
       'meta.llama2-13b-chat-v1',
@@ -250,12 +260,14 @@ export const models = {
     // `responseFormat` field.
     supportsJSON: [],
     supportsImages: [
+      'anthropic.claude-3-5-sonnet-20240620-v1:0',
       'anthropic.claude-3-sonnet-20240229-v1:0',
       'anthropic.claude-3-opus-20240229-v1:0',
       'anthropic.claude-3-haiku-20240307-v1:0',
     ] as const,
     supportsToolCalls: [
       'anthropic.claude-3-opus-20240229-v1:0',
+      'anthropic.claude-3-5-sonnet-20240620-v1:0',
       'anthropic.claude-3-sonnet-20240229-v1:0',
       'anthropic.claude-3-haiku-20240307-v1:0',
       'cohere.command-r-plus-v1:0',
